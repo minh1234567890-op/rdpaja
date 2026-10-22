@@ -1,0 +1,48 @@
+{
+  "active": true,
+  "hostname": "bagas-25",
+  "os": "Ubuntu 24.04.5 LTS (XFCE4 Desktop)",
+  "os_style": "Linux XFCE4 Desktop",
+  "linux_mode": "desktop",
+  "rdp_port": 3389,
+  "ssh_port": 22,
+  "rdp_user": "xyadmin",
+  "rdp_listen": "LISTENING :3389 (xrdp) + :22 (ssh)",
+  "started_at": "2026-10-22T09:18:41Z",
+  "expires_at": "2026-10-22T15:00:41Z",
+  "heartbeat_at": "2026-10-22T14:52:22Z",
+  "duration_menit": 342,
+  "run_id": "39751161413",
+  "run_attempt": "1",
+  "run_number": "25",
+  "run_url": "https://github.com/minh1234567890-op/rdpaja/actions/runs/39751161413",
+  "hardware": {
+    "cpu_threads": 4,
+    "cpu_cores": 4,
+    "cpu_load_pct": 5,
+    "ram_gb": 15.6,
+    "ram_total_gb": 15.6,
+    "ram_used_gb": 1.0,
+    "disk_total_gb": 145,
+    "disk_free_gb": 84,
+    "disk_used_gb": 61,
+    "uptime_minutes": 333
+  },
+  "akses": {
+    "mode": "tailscale",
+    "tailscale": {
+      "status": "connected",
+      "ip": "100.79.238.127",
+      "hostname": "bagas-25",
+      "port": 3389,
+      "ssh_port": 22,
+      "connect": "100.79.238.127:3389"
+    },
+    "tunnel": {
+      "type": "tailscale",
+      "host": "100.79.238.127",
+      "port": 3389,
+      "connect": "100.79.238.127:3389"
+    }
+  }
+}
